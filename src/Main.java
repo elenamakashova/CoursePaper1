@@ -25,8 +25,8 @@ public class Main {
         EmployeeBook.printDepartment(2);
         EmployeeBook.findSmallerSalary(40000);
         EmployeeBook.findBiggerSalary(40000);
-        EmployeeBook.changeEmployeeSalary("Григорович", "Екатерина", "Михайловна", 47000);
-        EmployeeBook.changeEmployeeDepartment("Сясина", "Татьяна", "Сергеевна", 5);
+        EmployeeBook.changeEmployeeSalary(3, 47000);
+        EmployeeBook.changeEmployeeDepartment(7, 5);
         EmployeeBook.printDepartmentsSeparately();
 
     }
